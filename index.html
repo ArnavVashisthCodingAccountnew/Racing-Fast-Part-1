@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Car Racing Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+    body{
+	background-image: url("https://media.giphy.com/media/cRLPo4VvLyPPddEpED/giphy.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#myCanvas
+{
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+p{
+    color: white !important;
+}
+body{
+    color:white;
+}
+</style>        
+    </head>
+    <body onload="add();">
+<center>
+
+
+    <h1>Race with Speed</h1>
+    <canvas id="myCanvas" width="800" height="600">
+	</canvas>
+<h4>
+    <h1>Car Status : <span id="game_status"></span></h1>
+	<b class="text-danger">NOTE : </b> IF CAR IS NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+<br> <br>
+<h1>Car1 Control</h1>
+<p>Up arrow key to move the car1 up
+    <br>
+    Down arrow key to move the car1 down
+    <br>
+    Left arrow key to move the car1 left
+    <br>
+    Right arrow key to move the car1 right</p>
+    <br> <br>
+    <h1>Car2 Control</h1>
+<p>
+
+    w arrow key to move the car2 up
+    <br>
+s arrow key to move the car2 down
+<br>
+a arrow key to move the car2 left
+<br>
+d arrow key to move the car2 right
+</p>
+</center>
+<script src="main.js"></script>
+    </body>
+</html>
