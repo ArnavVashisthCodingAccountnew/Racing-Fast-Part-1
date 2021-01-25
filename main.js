@@ -5,7 +5,7 @@ car1_width = 120;
 car1_height = 70; 
 
 background_image = "https://i.pinimg.com/originals/d0/9c/4c/d09c4cfd1b93cc66dc13c8b461fd2145.jpg"; 
-car1_image = "https://o.remove.bg/downloads/23b725fe-6f82-4988-b330-300fdcda7454/images-removebg-preview.png";
+car1_image = "car New.png";
 
 car1_x = 10;
 car1_y = 10;
